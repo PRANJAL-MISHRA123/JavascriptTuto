@@ -31,6 +31,18 @@ let bl2 = "Nigha"
 let blInBoolean = Boolean(bl)
 let bl2InBoolean = Boolean(bl2)
 
-console.log(blInBoolean)
-console.log(bl2InBoolean)
+// console.log(blInBoolean)
+// console.log(bl2InBoolean)
+
+//*********Operations*************************** 
+
+let value = 3
+let negValue = -value
+
+// console.log(negValue);
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
 
