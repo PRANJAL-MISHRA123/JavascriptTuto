@@ -5,7 +5,7 @@ let localDate = date1.toLocaleString('en-IN', {timeZone: 'IST'});
 // console.log(date1);
 // console.log(date1.toString());
 // console.log(date1.toDateString());
-// console.log(date1.toLocaleString());
+console.log(date1.toLocaleString());
 // console.log(date1.toLocaleDateString());
 
 // console.log(localDate);
