@@ -63,4 +63,40 @@ const users = [
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser)) // This will provide the key value pairs as subarray in a superarray
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // This is used to find if the particular Object has a property or not.
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // This is used to find if the particular Object has a property or not.
+
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+// Destructuring objects
+
+const course = {
+    course_name : "Javascript Tuto",
+    price : 999,
+    courseInstructor : "Hitesh Choudhary"
+}
+
+// Now to access the values we can do 
+// console.log(course.courseInstructor);
+
+// But to prevent writing it everytime we want to use it . We do the following way
+
+const {courseInstructor : instructor} = course;  // After writing this we can just use the variable specified (here "instructor")
+const {courseInstructor} = course;  // We can also use the key as both variable and key
+
+console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name" : "Pranjal Mishra",
+//     "course" : "Javascript Full",
+// }                                         //---> This is the Json Object which we the API returns
+
+// [
+//     {},
+//     {},
+//     {}
+// ]                                        //---> Sometimes the API returns an array of objects
+
+
+
+
